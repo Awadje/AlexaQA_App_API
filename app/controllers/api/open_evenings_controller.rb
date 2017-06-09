@@ -1,5 +1,5 @@
 class Api::OpenEveningsController < Api::BaseController
   def index
-    respond_with OpenEvenings.all
+    respond_with OpenEvening.all
   end
 end
