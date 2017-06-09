@@ -1,0 +1,2 @@
+class OpenEvening < ApplicationRecord
+end
