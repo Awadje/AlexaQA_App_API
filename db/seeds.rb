@@ -1,14 +1,14 @@
 
 
 
-Traineeship.create!(topic: "Web Developer", start_date: Date.today - rand(50).days, end_date: Date.today - rand(50).days)
-Traineeship.create!(topic: "Web Developer: Bootcamp", start_date: Date.today - rand(50).days, end_date: Date.today - rand(50).days)
-Traineeship.create!(topic: "React Advanced", start_date: Date.today - rand(50).days, end_date: Date.today - rand(50).days)
-Traineeship.create!(topic: "Ruby Advanced", start_date: Date.today - rand(50).days, end_date: Date.today - rand(50).days)
-Traineeship.create!(topic: "Javascript Advanced", start_date: Date.today - rand(50).days, end_date: Date.today - rand(50).days)
+Traineeship.create!(topic: "Academy", start_date: Date.today, end_date: Date.today + 8.weeks)
+Traineeship.create!(topic: "Academy", start_date: Date.today + 10.weeks, end_date: Date.today + 18.weeks)
+Traineeship.create!(topic: "Academy", start_date: Date.today + 20.weeks, end_date: Date.today + 28.weeks)
+Traineeship.create!(topic: "Academy", start_date: Date.today + 30.weeks, end_date: Date.today + 38.weeks)
+Traineeship.create!(topic: "Academy", start_date: Date.today + 40.weeks, end_date: Date.today + 48.weeks)
 
-OpenEvening.create!(topic: "General Information Bootcamp", date: Date.today - rand(182).days, location: "Amsterdam" )
-OpenEvening.create!(topic: "Detailed Information Bootcamp", date: Date.today - rand(182).days, location: "Almere" )
-OpenEvening.create!(topic: "Demo Night", date: Date.today - rand(182).days, location: "Utrecht" )
-OpenEvening.create!(topic: "General Information Bootcamp", date: Date.today - rand(182).days, location: "Amsterdam" )
-OpenEvening.create!(topic: "Detailed Information Bootcamp", date: Date.today - rand(182).days, location: "Amsterdam" )
+OpenEvening.create!(topic: "Open Evening", date: Date.today + 15.days, location: "Amsterdam" )
+OpenEvening.create!(topic: "Open Evening", date: Date.today + 30.days, location: "Almere" )
+OpenEvening.create!(topic: "Open Evening", date: Date.today + 45.days, location: "Utrecht" )
+OpenEvening.create!(topic: "Open Evening", date: Date.today + 60.days, location: "Amsterdam" )
+OpenEvening.create!(topic: "Open Evening", date: Date.today + 75.days, location: "Amsterdam" )
