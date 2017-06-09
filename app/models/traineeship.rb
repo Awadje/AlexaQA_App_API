@@ -1,0 +1,2 @@
+class Traineeship < ApplicationRecord
+end
